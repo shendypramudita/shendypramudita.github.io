@@ -1,0 +1,10 @@
+<form>
+  <label>Input the number of families</label>
+  <input type="text" placeholder="Input the number of families :" id="numberFamily"  name="numberFamily" #numberFamily>
+  <label>Input the number of members in the family :</label>
+  <input type="text" placeholder="Input the number of members in the family
+  (separated by a space) :" name="memberFamily" (keyup)="onKeyUp($event)">
+  <hr>
+  <label>Output :</label>
+  <br><span>{{ outputValue }}</span>
+</form>
